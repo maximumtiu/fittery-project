@@ -1,0 +1,7 @@
+<div class="row">
+	<% @images.shuffle.each do |img| %>
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 wrapper">
+			<%= image_tag img.url, class: "image img-thumbnail img-responsive" %>
+		</div>
+	<% end %>
+</div>

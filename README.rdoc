@@ -1,0 +1,3 @@
+== fittery-project
+
+A mini coding challenge for Fittery displaying a responsive image grid.
